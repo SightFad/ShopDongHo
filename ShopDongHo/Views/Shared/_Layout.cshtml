@@ -13,7 +13,7 @@
         <nav class="navbar navbar-expand-lg navbar-light sticky-top mb-1" style="background-color: #dbedf9;">
             <a class="navbar-brand" href="@Url.Action("Index","Home")">
                 <img src="~/Images/king.png" width="100" class="d-inline-block align-content-center" alt="">
-                Watch Luxury Store
+                 Huflit Watch Store
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -30,25 +30,6 @@
                     </li>
 
                     @Html.Action("_Catelogies", "Home")
-                    @if (Session["MaKhachHang"] == null)
-                    {
-                        <li class="nav-item">
-                            <a class="nav-link" href="@Url.Action("Login", "Home")">Đăng nhập</a>
-                        </li>
-                    }
-                    else
-                    {
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                @Session["HoTenKhachHang"].ToString()
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="@Url.Action("MyOrders", "Home")">Đơn hàng của tôi</a>
-                                <a class="dropdown-item" href="@Url.Action("ChangePassword", "Home")">Đổi mật khẩu</a>
-                                <a class="dropdown-item" href="@Url.Action("Logout", "Home")">Đăng xuất</a>
-                            </div>
-                        </li>
-                    }
 
                 </ul>
                 <form class="form-inline my-2 my-lg-0" action="@Url.Action("Search","Home")" method="post">
@@ -121,7 +102,7 @@
                             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
                                 <!-- Content -->
-                                <h6 class="text-uppercase font-weight-bold">Watch Luxury Store</h6>
+                                <h6 class="text-uppercase font-weight-bold"> Huflit Watch Store</h6>
                                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                                 <p>
                                     Chúng tôi kinh doanh tất cả sản phẩm đồng hồ có mặt trên thế giới <br />
@@ -200,7 +181,6 @@
                     <!-- Copyright -->
                     <!-- Footer -->
                     <hr />
-                    <p class="text-center">&copy; @DateTime.Now.Year - được thiết kế bởi nhóm Tình - Thắng - Tuyết</p>
                 </footer>
             </div>
         </div>

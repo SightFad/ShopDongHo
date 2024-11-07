@@ -310,14 +310,11 @@
     <Compile Include="Areas\Admin\Controllers\AuthController.cs" />
     <Compile Include="Areas\Admin\Controllers\ChatLieuController.cs" />
     <Compile Include="Areas\Admin\Controllers\DatHangController.cs" />
-    <Compile Include="Areas\Admin\Controllers\DatHang_ChiTietController.cs" />
     <Compile Include="Areas\Admin\Controllers\DongHoController.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
     <Compile Include="Areas\Admin\Controllers\KhachHangController.cs" />
     <Compile Include="Areas\Admin\Controllers\LoaiDHController.cs" />
-    <Compile Include="Areas\Admin\Controllers\NhanVienController.cs" />
     <Compile Include="Areas\Admin\Controllers\ThuongHieuController.cs" />
-    <Compile Include="Areas\Admin\Controllers\UserController.cs" />
     <Compile Include="Areas\Admin\Controllers\XuatXuController.cs" />
     <Compile Include="Controllers\GioHangController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -387,8 +384,6 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\brands.css" />
     <Content Include="Content\brands.min.css" />
-    <Content Include="Content\fontawesome.css" />
-    <Content Include="Content\fontawesome.min.css" />
     <Content Include="Content\regular.css" />
     <Content Include="Content\regular.min.css" />
     <Content Include="Content\Site.css" />
@@ -414,11 +409,6 @@
       <DependentUpon>ShopDongHoModel.edmx</DependentUpon>
       <LastGenOutput>ShopDongHoModel.cs</LastGenOutput>
     </Content>
-    <Content Include="webfonts\fa-brands-400.svg" />
-    <Content Include="webfonts\fa-duotone-900.svg" />
-    <Content Include="webfonts\fa-light-300.svg" />
-    <Content Include="webfonts\fa-regular-400.svg" />
-    <Content Include="webfonts\fa-solid-900.svg" />
     <EntityDeploy Include="Models\ShopDongHoModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>ShopDongHoModel.Designer.cs</LastGenOutput>
@@ -434,10 +424,6 @@
     <Content Include="Areas\Admin\Views\DatHang\Delete.cshtml" />
     <Content Include="Areas\Admin\Views\DatHang\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\DatHang\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\DatHang_ChiTiet\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\DatHang_ChiTiet\Delete.cshtml" />
-    <Content Include="Areas\Admin\Views\DatHang_ChiTiet\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\DatHang_ChiTiet\Index.cshtml" />
     <Content Include="Areas\Admin\Views\DongHo\Create.cshtml" />
     <Content Include="Areas\Admin\Views\DongHo\Delete.cshtml" />
     <Content Include="Areas\Admin\Views\DongHo\Details.cshtml" />
@@ -452,10 +438,6 @@
     <Content Include="Areas\Admin\Views\LoaiDH\Delete.cshtml" />
     <Content Include="Areas\Admin\Views\LoaiDH\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\LoaiDH\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\NhanVien\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\NhanVien\Delete.cshtml" />
-    <Content Include="Areas\Admin\Views\NhanVien\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\NhanVien\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\Error.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Admin\Views\ThuongHieu\Create.cshtml" />
@@ -468,7 +450,6 @@
     <Content Include="Areas\Admin\Views\XuatXu\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\XuatXu\Index.cshtml" />
     <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
-    <Content Include="Areas\Admin\Views\Home\Login.cshtml" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -477,20 +458,6 @@
     <Content Include="Scripts\esm\popper-utils.min.js" />
     <Content Include="Scripts\esm\popper.js" />
     <Content Include="Scripts\esm\popper.min.js" />
-    <Content Include="Scripts\fontawesome\all.js" />
-    <Content Include="Scripts\fontawesome\all.min.js" />
-    <Content Include="Scripts\fontawesome\brands.js" />
-    <Content Include="Scripts\fontawesome\brands.min.js" />
-    <Content Include="Scripts\fontawesome\conflict-detection.js" />
-    <Content Include="Scripts\fontawesome\conflict-detection.min.js" />
-    <Content Include="Scripts\fontawesome\fontawesome.js" />
-    <Content Include="Scripts\fontawesome\fontawesome.min.js" />
-    <Content Include="Scripts\fontawesome\regular.js" />
-    <Content Include="Scripts\fontawesome\regular.min.js" />
-    <Content Include="Scripts\fontawesome\solid.js" />
-    <Content Include="Scripts\fontawesome\solid.min.js" />
-    <Content Include="Scripts\fontawesome\v4-shims.js" />
-    <Content Include="Scripts\fontawesome\v4-shims.min.js" />
     <Content Include="Scripts\index.js.flow" />
     <Content Include="Scripts\esm\popper.min.js.map" />
     <Content Include="Scripts\esm\popper.js.map" />
@@ -506,9 +473,22 @@
     <Content Include="Content\bootstrap-reboot.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Storage\132657345648926963_mvw-ml029-01-nam-2-org.jpg" />
+    <Content Include="Storage\132657387975277205_casio.jpg" />
+    <Content Include="Storage\132665987157719336_apple-watch-s5-lte-day-thep-den-org.jpg" />
+    <Content Include="Storage\132665988991368096_samsung-galaxy-watch-3-45mm-titanium-2-org.jpg" />
+    <Content Include="Storage\132665991409953913_untitled-1-600x600.jpg" />
+    <Content Include="Storage\132665993664504698_oppo-watch-46mm-day-silicone-hong-1-org.jpg" />
+    <Content Include="Storage\132665997447034183_casio-eqs-920pb-1avudf-nam-1-org.jpg" />
+    <Content Include="Storage\132671607050941916_samsung-galaxy-watch-3-41mm-vang-dong-1-org.jpg" />
+    <Content Include="Storage\132671609610499267_trang-1-org.jpg" />
+    <Content Include="Storage\132674530118193542_Richard-Mille-RM12-01-Tourbillon-NTPT-Carbon-Limited-Edition-1.jpg" />
+    <Content Include="Storage\132675053676044426_garmin-lily-day-silicone-trang-1-org.jpg" />
+    <Content Include="Storage\132675055907335093_untitled-1-600x600 %282%29.jpg" />
+    <Content Include="Storage\132675057537156015_suunto-7-day-silicon-den-xanh-la-1-org.jpg" />
+    <Content Include="Storage\132675087110014639_iphone.jpg" />
+    <Content Include="Storage\133178915111990350_Screenshot_20230111_121631.png" />
     <Content Include="Views\Home\MyOrders.cshtml" />
-    <Content Include="Areas\Admin\Views\Home\ChangePassword.cshtml" />
-    <Content Include="Areas\Admin\Views\Home\Unauthorized.cshtml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -541,7 +521,6 @@
     <Content Include="Scripts\src\modifiers\keepTogether.js" />
     <Content Include="Scripts\src\modifiers\offset.js" />
     <Content Include="Scripts\src\modifiers\preventOverflow.js" />
-    <Content Include="Scripts\src\modifiers\shift.js" />
     <Content Include="Scripts\src\utils\clockwise.js" />
     <Content Include="Scripts\src\utils\computeAutoPlacement.js" />
     <Content Include="Scripts\src\utils\debounce.js" />
@@ -581,7 +560,6 @@
     <Content Include="Scripts\src\utils\isModifierEnabled.js" />
     <Content Include="Scripts\src\utils\isModifierRequired.js" />
     <Content Include="Scripts\src\utils\isNumeric.js" />
-    <Content Include="Scripts\src\utils\isOffsetContainer.js" />
     <Content Include="Scripts\src\utils\removeEventListeners.js" />
     <Content Include="Scripts\src\utils\runModifiers.js" />
     <Content Include="Scripts\src\utils\setAttributes.js" />
@@ -612,41 +590,17 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
-    <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\GioHang\Index.cshtml" />
-    <Content Include="webfonts\fa-brands-400.eot" />
-    <Content Include="webfonts\fa-brands-400.ttf" />
-    <Content Include="webfonts\fa-brands-400.woff" />
-    <Content Include="webfonts\fa-brands-400.woff2" />
-    <Content Include="webfonts\fa-duotone-900.eot" />
-    <Content Include="webfonts\fa-duotone-900.ttf" />
-    <Content Include="webfonts\fa-duotone-900.woff" />
-    <Content Include="webfonts\fa-duotone-900.woff2" />
-    <Content Include="webfonts\fa-light-300.eot" />
-    <Content Include="webfonts\fa-light-300.ttf" />
-    <Content Include="webfonts\fa-light-300.woff" />
-    <Content Include="webfonts\fa-light-300.woff2" />
-    <Content Include="webfonts\fa-regular-400.eot" />
-    <Content Include="webfonts\fa-regular-400.ttf" />
-    <Content Include="webfonts\fa-regular-400.woff" />
-    <Content Include="webfonts\fa-regular-400.woff2" />
-    <Content Include="webfonts\fa-solid-900.eot" />
-    <Content Include="webfonts\fa-solid-900.ttf" />
-    <Content Include="webfonts\fa-solid-900.woff" />
-    <Content Include="webfonts\fa-solid-900.woff2" />
     <Content Include="Views\Home\ThanhToan.cshtml" />
     <Content Include="Views\Home\Details.cshtml" />
     <Content Include="Views\Home\BuyMost.cshtml" />
-    <Content Include="Views\Home\Register.cshtml" />
     <Content Include="Views\Home\ChangePassword.cshtml" />
     <Content Include="Views\Home\Search.cshtml" />
-    <Content Include="Views\Home\SubPosts.cshtml" />
     <Content Include="Views\Shared\_Catelogies.cshtml" />
     <Content Include="Views\Home\success.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
-    <Folder Include="Storage\" />
+    <Folder Include="Areas\Admin\Views\Auth\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

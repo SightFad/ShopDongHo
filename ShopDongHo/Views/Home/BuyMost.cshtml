@@ -21,7 +21,6 @@
                             <p class="card-text text-center">@String.Format("{0:N0}", item.DonGia) VNĐ</p>
                         </div>
                         <div class="card-footer text-center">
-                            <a href="@Url.Action("ThemVaoGio", "GioHang", new { maSP = item.ID })" class="btn btn-danger">Giỏ hàng</a>
                             <a href="@Url.Action("Details", "Home", new { maSP = item.ID })" class="btn btn-info m-1">Chi tiết</a>
                         </div>
                     </div>

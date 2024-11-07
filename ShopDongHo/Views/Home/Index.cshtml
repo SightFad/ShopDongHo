@@ -11,7 +11,6 @@
             <li data-target="#demo" data-slide-to="1"></li>
             <li data-target="#demo" data-slide-to="2"></li>
         </ul>
-
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="~/Images/slide1.jpg" class="d-block w-100" alt="">
@@ -48,7 +47,6 @@
                                 <p class="card-text text-center">@String.Format("{0:N0}", item.DonGia) VNĐ</p>
                             </div>
                             <div class="card-footer text-center">
-                                <a href="@Url.Action("ThemVaoGio", "GioHang", new { maSP = item.ID })" class="btn btn-danger fas fa-shopping-cart"> Giỏ hàng</a>
                                 <a href="@Url.Action("Details", "Home", new { maSP = item.ID })" class="btn btn-info m-1 fas fa-info-circle"> Chi tiết</a>
                             </div>
                         </div>
